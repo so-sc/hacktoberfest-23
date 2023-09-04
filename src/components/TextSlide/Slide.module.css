@@ -1,0 +1,28 @@
+.scroll_text_container {
+  --scroll-time: 30s;
+  --gap: 1rem;
+  position: relative;
+  display: flex;
+  /* font-size: 450%; */
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+}
+
+.scroll_text {
+  flex-shrink: 0;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: var(--gap);
+
+  animation: scroll var(--scroll-time) infinite linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}

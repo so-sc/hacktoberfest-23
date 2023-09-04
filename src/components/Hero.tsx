@@ -17,7 +17,14 @@ const Hero = () => {
           width={500}
           height={500}
           alt="background"
-          className="lg:w-[60rem] w-[50rem] -z-10"
+          className="lg:w-[60rem] md:flex hidden w-[50rem] -z-10"
+        ></img>
+        <img
+          src="/assets/logo/logo-vertical.png"
+          width={500}
+          height={500}
+          alt="background"
+          className="flex md:hidden -z-10"
         ></img>
       </div>
     </div>

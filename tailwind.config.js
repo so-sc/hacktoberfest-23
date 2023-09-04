@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
+      jbExtrabolditalic: ["JetBrainsMono-ExtraBoldItalic", "mono"],
       jbExtrabold: ["JetBrainsMono-ExtraBold", "mono"],
       jbBold: ["JetBrainsMono-Bold", "mono"],
       jbMedium: ["JetBrainsMono-Medium", "mono"],

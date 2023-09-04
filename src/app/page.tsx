@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import TextSlide from "@/components/TextSlide/page";
 import Image from "next/image";
 
 export default function Home() {
@@ -111,6 +112,7 @@ export default function Home() {
           </p>
         </a>
       </div> */}
+      <TextSlide />
       <Footer />
     </main>
   );

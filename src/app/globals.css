@@ -4,6 +4,10 @@
 
 @layer base {
   @font-face {
+    font-family: "JetBrainsMono-ExtraBoldItalic";
+    src: url("/fonts/JetBrainsMono-ExtraBoldItalic.ttf");
+  }
+  @font-face {
     font-family: "JetBrainsMono-ExtraBold";
     src: url("/fonts/JetBrainsMono-ExtraBold.ttf");
   }
