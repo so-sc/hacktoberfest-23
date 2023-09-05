@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-white">
-          <p className="pb-4 px-5 text-center">
+          <p className="py-5 px-5 text-center">
             SOSC © {new Date().getFullYear()}
           </p>
         </div>

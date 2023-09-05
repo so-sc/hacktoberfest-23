@@ -17,8 +17,8 @@ function TextSlide() {
           <div className={styles.scroll_text}>
             <p className="flex items-center">COMING SOON</p>
             <img
-              src="/assets/logo/logo-white.png"
-              className="h-20 md:h-32"
+              src="/assets/logo/sosc-white.png"
+              className="h-10 px-2 md:h-16"
               alt="/"
             />
             <p className="flex items-center">COMING SOON</p>
@@ -29,28 +29,8 @@ function TextSlide() {
             />
             <p className="flex items-center">COMING SOON</p>
             <img
-              src="/assets/logo/logo-white.png"
-              className="h-20 md:h-32"
-              alt="/"
-            />
-          </div>
-          <div className={styles.scroll_text}>
-            <p className="flex items-center">COMING SOON</p>
-            <img
-              src="/assets/logo/logo-white.png"
-              className="h-20 md:h-32"
-              alt="/"
-            />
-            <p className="flex items-center">COMING SOON</p>
-            <img
-              src="/assets/logo/logo-white.png"
-              className="h-20 md:h-32"
-              alt="/"
-            />
-            <p className="flex items-center">COMING SOON</p>
-            <img
-              src="/assets/logo/logo-white.png"
-              className="h-20 md:h-32"
+              src="/assets/logo/sosc-white.png"
+              className="h-10 px-2 md:h-16"
               alt="/"
             />
           </div>
@@ -63,8 +43,22 @@ function TextSlide() {
             />
             <p className="flex items-center">COMING SOON</p>
             <img
+              src="/assets/logo/sosc-white.png"
+              className="h-10 px-2 md:h-16"
+              alt="/"
+            />
+            <p className="flex items-center">COMING SOON</p>
+            <img
               src="/assets/logo/logo-white.png"
               className="h-20 md:h-32"
+              alt="/"
+            />
+          </div>
+          <div className={styles.scroll_text}>
+            <p className="flex items-center">COMING SOON</p>
+            <img
+              src="/assets/logo/sosc-white.png"
+              className="h-10 px-2 md:h-16"
               alt="/"
             />
             <p className="flex items-center">COMING SOON</p>
