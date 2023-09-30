@@ -17,23 +17,23 @@ const Footer = () => {
           <div className="flex flex-grow md:pl-20 mb-10 mx-6 md:mt-0 mt-10 ">
             <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <div className="flex text-white flex-col">
-                <Link href={githubLink} to="blank" text="GitHub" />
-                <Link href={linkedinLink} to="blank" text="LinkedIn" />
-                <Link href={instagramLink} to="blank" text="Instagram" />
-                <Link href={facebookLink} to="blank" text="Facebook" />
-                <Link href={twitterLink} to="blank" text="Twitter" />
+                <Link href={githubLink} to="_blank" text="GitHub" />
+                <Link href={linkedinLink} to="_blank" text="LinkedIn" />
+                <Link href={instagramLink} to="_blank" text="Instagram" />
+                <Link href={facebookLink} to="_blank" text="Facebook" />
+                <Link href={twitterLink} to="_blank" text="Twitter" />
               </div>
             </div>
             <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <div className="flex text-white flex-col">
-                <Link href={youtubeLink} to="blank" text="Youtube" />
-                <Link href={discordLink} to="blank" text="Discord" />
+                <Link href={youtubeLink} to="_blank" text="Youtube" />
+                <Link href={discordLink} to="_blank" text="Discord" />
                 <Link
                   href={communityGuidelines}
-                  to="blank"
+                  to="_blank"
                   text="Community Guidelines"
                 />
-                <Link href="#" to="blank" text="Donate" />
+                <Link href="#" to="_blank" text="Donate" />
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ const Footer = () => {
             <Link
               text="sosc@sahyadri.edu.in"
               href="mailto:sosc@sahyadri.edu.in"
-              to="blank"
+              to="_blank"
             />
           </div>
         </div>
