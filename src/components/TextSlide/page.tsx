@@ -12,7 +12,7 @@ function TextSlide() {
         transition={{ ease: "easeInOut", duration: 0.2 }}
       >
         <div
-          className={`${styles.scroll_text_container} my-5 text-6xl md:text-8xl font-jbExtrabolditalic`}
+          className={`${styles.scroll_text_container} my-10 text-6xl md:text-8xl font-jbExtrabolditalic`}
         >
           <div className={styles.scroll_text}>
             <p className="flex items-center">COMING SOON</p>

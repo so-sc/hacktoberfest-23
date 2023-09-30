@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Hero = () => {
   return (
     <div className="h-screen flex justify-center items-center">
