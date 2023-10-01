@@ -1,11 +1,11 @@
 "use client";
-import styles from "./Event.module.css";
+import styles from "./About.module.css";
 import Link from "next/link";
 
 const Events = () => {
   return (
-    <div className="h-screen">
-      <div className="-z-10">
+    <div className="min-h-screen">
+      <div className="-z-20">
         <img
           src="/assets/icons/13@1x.png"
           alt="logo"
@@ -27,24 +27,37 @@ const Events = () => {
           className={`w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float1} absolute right-0 mt-[45rem]`}
         />
       </div>
-      <div className="tracking-wider w-full">
-        <div className="h-full md:p-20 p-10 lg:m-32 md:m-20 m-10 md:my-0 my-0 lg:my-0 backdrop-blur-sm bg-[#d1f2f9] bg-opacity-5 rounded-3xl overflow-hidden">
-          <h1 className="font-jbExtrabold mb-5 text-3xl">About.</h1>
-          <p className="font-jbRegular text-sm md:text-base">
-            Hack Night is a flagship event organized by Sahyadri Open Source
-            Community (SOSC) in celebration of Hacktoberfest 2023
-          </p>
-          <p className="py-5 font-jbRegular text-sm md:text-base">
-            Hacktoberfest is open to everyone in our global community. Whether
-            you&apos;re new to development, a student or a long-time
-            contributor, you can help drive growth of open source and make
-            positive contributions to an ever-growing community. All backgrounds
-            and skills levels are encouraged to complete the challenge.
-          </p>
+      <div className="min-h-screen flex justify-center items-center">
+        <div className="tracking-wider w-full">
+          <div
+            className={`${styles.gradient_border} h-full md:p-20 p-10 lg:m-32 md:m-20 m-10 md:my-0 my-0 lg:my-0 backdrop-blur-sm bg-[#d1f2f9] bg-opacity-5`}
+          >
+            <h1 className="font-jbExtrabold mb-5 text-3xl">About.</h1>
+            <div className="font-jbRegular text-sm md:text-base leading-8">
+              {"Hack Night is a flagship event organized by "}
+              <span className="hover:drop-shadow-[0_0_0.2rem_#d2b863] transition duration-300">
+                <Link
+                  className="underline drop-shadow-[0_0_0.2rem_#460a07] leading-8 transition duration-300 underline-offset-8"
+                  href="https://www.sosc.org.in/"
+                  target="_blank"
+                >
+                  Sahyadri Open Source Community (SOSC)
+                </Link>{" "}
+              </span>
+              in celebration of Hacktoberfest 2023
+            </div>
+            <p className="py-5 leading-8 font-jbRegular text-sm md:text-base">
+              Hacktoberfest is open to everyone in our global community. Whether
+              you&apos;re new to development, a student or a long-time
+              contributor, you can help drive growth of open source and make
+              positive contributions to an ever-growing community. All
+              backgrounds and skills levels are encouraged to complete the
+              challenge.
+            </p>
+          </div>
         </div>
-      </div>
-      {/* When Registrations Opens, un-comment these */}
-      {/* <div>
+        {/* When Registrations Opens, un-comment these */}
+        {/* <div>
         <div className="flex flex-col justify-center items-center h-full md:p-20 p-10 md:m-20 m-10 rounded-3xl overflow-hidden">
           <h1 className="font-jbExtrabold mb-5 text-2xl md:text-3xl">
             Take part in the most awaited event!
@@ -66,6 +79,7 @@ const Events = () => {
           </div>
         </div>
       </div> */}
+      </div>
     </div>
   );
 };
