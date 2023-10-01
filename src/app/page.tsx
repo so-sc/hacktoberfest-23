@@ -1,4 +1,4 @@
-import Events from "@/components/Events/page";
+import About from "@/components/About/page";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <TextSlide />
-      <Events />
+      <About />
       <Footer />
     </main>
   );

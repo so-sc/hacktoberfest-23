@@ -3,7 +3,7 @@ const Hero = () => {
     <div className="h-screen flex justify-center items-center">
       <div className="absolute -z-20 inset-0 overflow-hidden">
         <img
-          src="/assets/background/pic1.png"
+          src="/assets/background/pic2.png"
           width={500}
           height={500}
           alt="background"
@@ -27,9 +27,9 @@ const Hero = () => {
         ></img>
         <div className="flex pt-2 items-center font-jbExtrabold">
           <p className="text-3xl md:text-4xl">HackNight 2023</p>
-        </div>{" "}
+        </div>
       </div>
-      <div className="-z-10">
+      {/* <div className="-z-10">
         <img
           src="/assets/background/tl.png"
           width={500}
@@ -58,7 +58,7 @@ const Hero = () => {
           alt="background"
           className="object-center pl-60 md:pl-40 lg:pl-32 absolute bottom-0 right-0"
         ></img>
-      </div>
+      </div> */}
     </div>
   );
 };
