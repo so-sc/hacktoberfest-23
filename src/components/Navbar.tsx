@@ -5,16 +5,16 @@ const Navbar = () => {
     <div className="absolute w-full">
       <ul className="flex flex-wrap items-center font-jbExtrabold tracking-wider md:text-lg justify-between px-[10vw] md:px-[20vw] lg:px-[30vw] py-5">
         <li>
-          <Link text="HOME" to="self" href="#"></Link>
+          <Link text="HOME" to="" href="/"></Link>
         </li>
         <li>
-          <Link text="RULES" to="self" href="#"></Link>
+          <Link text="RULES" to="" href="#"></Link>
         </li>
         <li>
-          <Link text="CONTACT" to="self" href="#"></Link>
+          <Link text="CONTACT" to="" href="#"></Link>
         </li>
         <li>
-          <Link text="HELP" to="self" href="#"></Link>
+          <Link text="HELP" to="" href="#"></Link>
         </li>
       </ul>
     </div>
