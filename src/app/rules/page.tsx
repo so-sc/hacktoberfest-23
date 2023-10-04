@@ -1,4 +1,3 @@
-import Card from '@/components/Card'
 import TypingAnimation from '@/components/TextAnimation/TextType'
 import React from 'react'
 
@@ -13,8 +12,6 @@ export default function page() {
 
         For the past 10 years, thousands of people—coders and non-coders alike—have participated in Hacktoberfest to support the projects they use and love, learn and practice skills that will enhance their careers, and meet new people who love open source as much as they do.
       </p>
-      
-      <Card />
     </div>
   )
 }
