@@ -7,7 +7,6 @@ import TextSlide from "@/components/TextSlide/page";
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <Hero />
       <TextSlide />
       <About />
