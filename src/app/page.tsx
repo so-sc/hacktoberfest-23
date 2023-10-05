@@ -12,6 +12,12 @@ export default function Home() {
       <Hero />
       <TextSlide />
       <Themes/>
+      <div className="pt-20 md:pb-10 pb-20 px-5 text-center">
+        <h1 className="md:text-4xl text-2xl font-jbExtrabolditalic">
+          Registration Opening Soon
+        </h1>
+        <p className="font-jbExtrabold text-2xl mt-4">{"Stay tuned ;)"}</p>
+      </div>
       <About />
       <Footer />
     </main>
