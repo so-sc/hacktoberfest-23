@@ -1,9 +1,15 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import styles from '../About/About.module.css';
+
+interface typeprops {
+    message:string;
+    cursor?:string;
+}
 const TypingAnimation = ({
     message = "This is a typing animation",
-}) => {
+    cursor="|"
+}:typeprops) => {
     const [text, setText] = useState('');
     const [isTyping, setIsTyping] = useState(true);
 
@@ -39,7 +45,9 @@ const TypingAnimation = ({
             </div>
             <span>{text}</span>
             {isTyping && <span className="cursor">
-                <span className="animate-blink">|</span>
+                <span className="animate-blink font-extrabold">
+                    {cursor}
+                </span>
             </span>}
         </div>
     );
