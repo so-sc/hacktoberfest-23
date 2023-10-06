@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Flowchart.jsx"
+    "src/components/Flowchart.jsx",
+    "src/components/Themes.jsx"
   ],
   "exclude": ["node_modules"]
 }

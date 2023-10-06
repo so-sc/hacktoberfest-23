@@ -29,7 +29,7 @@ const Hero = () => {
           <p className="text-3xl md:text-4xl">HackNight 2023</p>
         </div>
       </div>
-      {/* <div className="-z-10">
+      <div className="-z-10">
         <img
           src="/assets/background/tl.png"
           width={500}
@@ -45,20 +45,20 @@ const Hero = () => {
           className="object-center pl-60 md:pl-40 lg:pl-32 absolute top-0 right-0"
         ></img>
         <img
-          src="/assets/background/bl.png"
+          src="/assets/background/bb.png"
           width={500}
           height={500}
           alt="background"
           className="object-center pr-60 md:pr-40 lg:pr-32 absolute bottom-0 left-0"
         ></img>
         <img
-          src="/assets/background/br.png"
+          src="/assets/background/bbb.png"
           width={500}
           height={500}
           alt="background"
           className="object-center pl-60 md:pl-40 lg:pl-32 absolute bottom-0 right-0"
         ></img>
-      </div> */}
+      </div>
     </div>
   );
 };

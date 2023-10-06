@@ -1,38 +1,19 @@
 "use client";
+import TypingAnimation from "@/components/TextAnimation/TextType";
 import styles from "./About.module.css";
 import Link from "next/link";
 
 const Events = () => {
   return (
-    <div className="min-h-screen">
-      <div className="-z-20">
-        <img
-          src="/assets/icons/13@1x.png"
-          alt="logo"
-          className={`w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float} absolute`}
-        />
-        <img
-          src="/assets/icons/14@1x.png"
-          alt="logo"
-          className={`w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float3} absolute mt-60 right-0`}
-        />
-        <img
-          src="/assets/icons/06@1x.png"
-          alt="logo"
-          className={`w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float2} absolute mt-[30rem]`}
-        />
-        <img
-          src="/assets/icons/04@1x.png"
-          alt="logo"
-          className={`w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float1} absolute right-0 mt-[45rem]`}
-        />
-      </div>
-      <div className="min-h-screen flex justify-center items-center">
-        <div className="tracking-wider w-full">
+    <div>
+      <div className="flex justify-center items-center">
+        <div className="tracking-wider py-5 md:py-20 w-full">
           <div
-            className={`${styles.gradient_border} h-full md:p-20 p-10 lg:m-32 md:m-20 m-10 md:my-0 my-0 lg:my-0 backdrop-blur-sm bg-[#d1f2f9] bg-opacity-5`}
+            className={`gradient_border h-full md:p-20 p-10 lg:mx-32 md:m-20 m-10 md:my-0 my-0 lg:my-0 backdrop-blur-sm bg-[#d1f2f9] bg-opacity-5`}
           >
-            <h1 className="font-jbExtrabold mb-5 text-3xl">About.</h1>
+            <h1 className="font-jbExtrabold mb-5 text-3xl">
+              <TypingAnimation message="About" />
+            </h1>
             <div className="font-jbRegular text-sm md:text-base leading-8">
               {"Hack Night is a flagship event organized by "}
               <span className="hover:drop-shadow-[0_0_0.2rem_#d2b863] transition duration-300">
@@ -56,29 +37,6 @@ const Events = () => {
             </p>
           </div>
         </div>
-        {/* When Registrations Opens, un-comment these */}
-        {/* <div>
-        <div className="flex flex-col justify-center items-center h-full md:p-20 p-10 md:m-20 m-10 rounded-3xl overflow-hidden">
-          <h1 className="font-jbExtrabold mb-5 text-2xl md:text-3xl">
-            Take part in the most awaited event!
-          </h1>
-          <div className="flex">
-            <div className="mt-5 p-0.5 rounded-2xl hover:drop-shadow-[0_0_0.2rem_#d2b863] bg-gray-600 font-jbMedium hover:bg-gradient-to-tr from-[#ec4237] via-[#d2b863] to-[#33b6d8] transition duration-300">
-              <div className="py-5 bg-[#0f0913] rounded-2xl hover:drop-shadow-[0_0_0.2rem_#460a07] transition duration-300 underline-offset-8">
-                <div className=" hover:drop-shadow-[0_0_0.2rem_#d2b863] transition duration-300">
-                  <Link
-                    href=""
-                    className=" py-5 px-5 hover:drop-shadow-[0_0_0.2rem_#460a07] transition duration-300 underline-offset-8"
-                    target="_blank"
-                  >
-                    Register Now!
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       </div>
     </div>
   );
