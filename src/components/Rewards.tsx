@@ -36,7 +36,7 @@ export default function Rewards() {
         <h1 className="my-10 md:py-0 text-center text-3xl md:text-4xl lg:text-5xl font-jbExtrabold">
           <TypingAnimation message="Amazing Rewards" />
         </h1>
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-3 gap-5">
           <Card message="Card 1 Text" />
           <Card message="Card 2 Text" />
           <Card message="Card 3 Text" />

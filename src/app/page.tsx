@@ -10,6 +10,8 @@ import Flowchart from "@/components/Flowchart/page";
 import styles from "@/components/About/About.module.css";
 import Button from "@/components/RegistrationButton";
 import Rewards from "@/components/Rewards";
+import Judges from "@/components/Judges";
+import Link from "@/components/Links";
 
 export default function Home() {
   const images = [
@@ -85,6 +87,10 @@ export default function Home() {
       <Flowchart />
       <Themes />
       <Rewards />
+      <Judges />
+      <div className="text-center pb-20 text-2xl">
+        <Link href="/about" text="More on Event" to="" />
+      </div>
       <Footer />
     </main>
   );

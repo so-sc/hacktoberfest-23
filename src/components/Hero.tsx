@@ -1,3 +1,8 @@
+import Button from "@/components/Button";
+import TypingAnimation from "@/components/TextAnimation/TextType";
+import styles from "@/components/About/About.module.css";
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <div className="h-screen flex justify-center items-center">
@@ -10,7 +15,20 @@ const Hero = () => {
           className="object-center h-full w-full object-cover"
         ></img>
       </div>
-      <div className="flex flex-col items-center">
+      <Link href="#date" className={`absolute ${styles.float1} bottom-0 py-10`}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="40"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M11 4h2v12h2v2h-2v2h-2v-2H9v-2h2V4zM7 14v2h2v-2H7zm0 0v-2H5v2h2zm10 0v2h-2v-2h2zm0 0v-2h2v2h-2z"
+          />
+        </svg>
+      </Link>
+      <div className="flex pt-5 md:pt-20 flex-col items-center">
         <img
           src="/assets/logo/main-logo-new.png"
           width={500}
@@ -25,8 +43,12 @@ const Hero = () => {
           alt="background"
           className="flex md:hidden -z-10"
         ></img>
-        <div className="flex pt-2 items-center font-jbExtrabold">
-          <p className="text-3xl md:text-4xl">HackNight 2023</p>
+        <div className="flex flex-col pt-2 items-center font-jbExtrabold">
+          <div className="text-3xl md:text-4xl">
+            {" "}
+            <TypingAnimation message="HackNight 2023" />
+          </div>
+          <Button />
         </div>
       </div>
       <div className="-z-10">
