@@ -15,19 +15,19 @@ function TextSlide() {
           className={`${styles.scroll_text_container} my-10 text-6xl md:text-8xl font-jbExtrabolditalic`}
         >
           <div className={styles.scroll_text}>
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/sosc-white.png"
               className="h-10 px-2 md:h-16"
               alt="/"
             />
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/logo-white.png"
               className="h-20 md:h-32"
               alt="/"
             />
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/sosc-white.png"
               className="h-10 px-2 md:h-16"
@@ -35,19 +35,19 @@ function TextSlide() {
             />
           </div>
           <div className={styles.scroll_text}>
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/logo-white.png"
               className="h-20 md:h-32"
               alt="/"
             />
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/sosc-white.png"
               className="h-10 px-2 md:h-16"
               alt="/"
             />
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/logo-white.png"
               className="h-20 md:h-32"
@@ -55,13 +55,13 @@ function TextSlide() {
             />
           </div>
           <div className={styles.scroll_text}>
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/sosc-white.png"
               className="h-10 px-2 md:h-16"
               alt="/"
             />
-            <p className="flex items-center">COMING SOON</p>
+            <p className="flex items-center">Virtually</p>
             <img
               src="/assets/logo/logo-white.png"
               className="h-20 md:h-32"
