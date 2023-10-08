@@ -83,13 +83,15 @@ export default function Home() {
       <Hero />
       <Button />
       <TextSlide />
-      <About />
+      <div id="about">
+        <About />
+      </div>
       <Flowchart />
       <Themes />
       <Rewards />
       <Judges />
-      <div className="text-center pb-20 text-2xl">
-        <Link href="/about" text="More on Event" to="" />
+      <div className="text-center font-jbRegular pb-20 text-2xl">
+        <Link href="/about" text="More about Hacktoberfest" to="" />
       </div>
       <Footer />
     </main>
