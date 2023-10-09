@@ -48,7 +48,7 @@ const Hero = () => {
             <div className="text-3xl md:text-4xl">
               <TypingAnimation message="HackNight 2023" />
             </div>
-            <Button />
+            {/* <Button /> */}
           </div>
         </div>
       </div>

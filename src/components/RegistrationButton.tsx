@@ -5,7 +5,7 @@ const RegistrationButton = () => {
     <div>
       <div className="flex flex-col justify-center items-center h-full mx-10 my-20">
         <h1 className="z-50 font-jbExtrabold text-center text-2xl md:text-3xl">
-          Join us on 28th and 29th of October
+          Registrations Opening Soon!
         </h1>
         {/* <div className="flex p-5">
           <div className="mt-5 p-0.5 rounded-2xl hover:drop-shadow-[0_0_0.2rem_#d2b863] bg-gray-600 font-jbMedium hover:bg-gradient-to-tr from-[#ec4237] via-[#d2b863] to-[#33b6d8] transition duration-300">
