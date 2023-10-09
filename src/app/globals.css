@@ -28,7 +28,10 @@
 * {
   color: white;
 }
-
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
 body {
   background-color: #0f0913;
 }

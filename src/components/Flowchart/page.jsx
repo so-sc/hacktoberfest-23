@@ -1,5 +1,5 @@
 "use client";
-
+import TypingAnimation from "@/components/TextAnimation/TextType";
 import React from "react";
 import {
   VerticalTimeline,
@@ -75,13 +75,11 @@ const Experience = () => {
         {``}
       </span>
 
-      <motion.div variants={textVariant()}>
-        <p className="text-3xl pt-20 font-jbExtrabold text-center">
-          Flow of the Events
-        </p>
-      </motion.div>
+      <div className="text-3xl md:text-5xl py-10 font-jbExtrabold text-center">
+        <TypingAnimation message="Hackathon Flow" />
+      </div>
 
-      <div className="mt-20 flex flex-col">
+      <div className="md:my-20 flex flex-col">
         <VerticalTimeline>
           {events.map((event, index) => (
             <EventCard key={`event-${index}`} event={event} />

@@ -1,30 +1,62 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 import styles from '../About/About.module.css';
+
+interface typeprops {
+    message:string;
+    cursor?:string;
+}
 const TypingAnimation = ({
     message = "This is a typing animation",
-}) => {
+    cursor="|"
+}:typeprops) => {
     const [text, setText] = useState('');
-    const [isTyping, setIsTyping] = useState(true);
+  const [isTyping, setIsTyping] = useState(true);
+  const typingContainerRef = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
-        let index = 0;
-        const interval = setInterval(() => {
-            if (index <= message.length) {
-                setText(message.slice(0, index));
-                index++;
-            } else {
-                setIsTyping(false);
-                clearInterval(interval);
-            }
-        }, 200);
+  useEffect(() => {
+    const options = {
+      root: null, // viewport
+      rootMargin: "0px", // margin around the viewport
+      threshold: 0.5, // trigger when 50% of the element is visible
+    };
 
-        return () => clearInterval(interval);
-    }, []);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Element is visible, start typing animation
+          setIsTyping(true);
+          startTypingAnimation();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
 
+    if (typingContainerRef.current) {
+      observer.observe(typingContainerRef.current);
+    }
+
+    return () => {
+      // Cleanup observer on component unmount
+      observer.disconnect();
+    };
+  }, []);
+
+  const startTypingAnimation = () => {
+    let index = 0;
+    const interval = setInterval(() => {
+      if (index <= message.length) {
+        setText(message.slice(0, index));
+        index++;
+      } else {
+        setIsTyping(false);
+        clearInterval(interval);
+      }
+    }, 150);
+  };
 
     return (
-        <div>
+      <div ref={typingContainerRef}>
             <div className="-z-20">
                 <img
                     src="/assets/icons/14@1x.png"
@@ -39,7 +71,9 @@ const TypingAnimation = ({
             </div>
             <span>{text}</span>
             {isTyping && <span className="cursor">
-                <span className="animate-blink">|</span>
+                <span className="animate-blink font-extrabold">
+                    {cursor}
+                </span>
             </span>}
         </div>
     );
