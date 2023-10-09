@@ -80,23 +80,23 @@ export default function Home() {
           />
         ))}
       </div>
-      <section id="hero">
+      <section id="home">
         <Hero />
-        <Button />
       </section>
+      <Button />
       <TextSlide />
-      <section id="themes">
+      <div id="about">
         <About />
-      </section>
+      </div>
       <section id="flowchart">
-        <Flowchart />
+        {" "}
+        <Flowchart />{" "}
       </section>
-      <Themes />
+      <section id="themes">
+        <Themes />
+      </section>
       <Rewards />
       <Judges />
-      <div className="text-center pb-20 text-2xl">
-        <Link href="/about" text="More on Event" to="" />
-      </div>
       <Footer />
     </main>
   );

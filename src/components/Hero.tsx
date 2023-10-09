@@ -28,27 +28,28 @@ const Hero = () => {
           />
         </svg>
       </Link>
-      <div className="flex pt-5 md:pt-20 flex-col items-center">
-        <img
-          src="/assets/logo/main-logo-new.png"
-          width={500}
-          height={500}
-          alt="background"
-          className="lg:w-[60rem] md:flex hidden w-[50rem] -z-10"
-        ></img>
-        <img
-          src="/assets/logo/logo-vertical.png"
-          width={500}
-          height={500}
-          alt="background"
-          className="flex md:hidden -z-10"
-        ></img>
-        <div className="flex flex-col pt-2 items-center font-jbExtrabold">
-          <div className="text-3xl md:text-4xl">
-            {" "}
-            <TypingAnimation message="HackNight 2023" />
+      <div className="absolute top-0 h-screen flex items-center">
+        <div className="flex pt-5 flex-col items-center">
+          <img
+            src="/assets/logo/main-logo-new.png"
+            width={500}
+            height={500}
+            alt="background"
+            className="lg:w-[60rem] md:flex hidden w-[50rem] -z-10"
+          ></img>
+          <img
+            src="/assets/logo/logo-vertical.png"
+            width={500}
+            height={500}
+            alt="background"
+            className="flex md:hidden -z-10"
+          ></img>
+          <div className="flex flex-col pt-2 items-center font-jbExtrabold">
+            <div className="text-3xl md:text-4xl">
+              <TypingAnimation message="HackNight 2023" />
+            </div>
+            <Button />
           </div>
-          <Button />
         </div>
       </div>
       <div className="-z-10">
