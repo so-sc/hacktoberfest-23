@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 import styles from '../About/About.module.css';
 
 interface typeprops {
@@ -11,7 +11,8 @@ const TypingAnimation = ({
     cursor="|"
 }:typeprops) => {
     const [text, setText] = useState('');
-    const [isTyping, setIsTyping] = useState(true);
+  const [isTyping, setIsTyping] = useState(true);
+  const typingContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const options = {
@@ -55,7 +56,7 @@ const TypingAnimation = ({
   };
 
     return (
-        <div>
+      <div ref={typingContainerRef}>
             <div className="-z-20">
                 <img
                     src="/assets/icons/14@1x.png"

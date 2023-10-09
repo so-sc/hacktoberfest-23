@@ -80,11 +80,17 @@ export default function Home() {
           />
         ))}
       </div>
-      <Hero />
-      <Button />
+      <section id="hero">
+        <Hero />
+        <Button />
+      </section>
       <TextSlide />
-      <About />
-      <Flowchart />
+      <section id="themes">
+        <About />
+      </section>
+      <section id="flowchart">
+        <Flowchart />
+      </section>
       <Themes />
       <Rewards />
       <Judges />
