@@ -7,16 +7,16 @@ const Navbar = () => {
     ">
       <ul className="flex flex-wrap items-center font-jbExtrabold tracking-wider md:text-lg justify-between px-[10vw] md:px-[20vw] lg:px-[30vw] py-5">
         <li>
-          <Link text="HOME" to="" href="/"></Link>
+          <Link text="HOME" to=""></Link>
         </li>
         <li>
-          <Link text="RULES" to="" href="/rules"></Link>
+          <Link text="RULES" to="themes"></Link>
         </li>
         <li>
-          <Link text="CONTACT" to="" href="#flowchart"></Link>
+          <Link text="FLOWCHART" to="flowchart"></Link>
         </li>
         <li>
-          <Link text="HELP" to="" href="#themes"></Link>
+          <Link text="THEMES" to="themes"></Link>
         </li>
       </ul>
     </div>
