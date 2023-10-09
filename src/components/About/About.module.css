@@ -65,9 +65,3 @@
     transform: translateY(0px);
   }
 }
-
-.gradient_border {
-  border: 0.5px solid transparent;
-  border-image: linear-gradient(to top right, #ec4237, #d2b863, #33b6d8);
-  border-image-slice: 1;
-}
