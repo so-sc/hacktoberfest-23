@@ -70,7 +70,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      {/* <div className="-z-20">
+      <div className="-z-20">
         {images.map((image, index) => (
           <img
             key={index}
@@ -79,7 +79,7 @@ export default function Home() {
             className={image.className}
           />
         ))}
-      </div> */}
+      </div>
       <section id="home">
         <Hero />
       </section>
@@ -88,14 +88,14 @@ export default function Home() {
       <div id="about">
         <About />
       </div>
-      {/* <section id="flowchart">
+      <section id="flowchart">
         <Flowchart />
       </section>
       <section id="themes">
         <Themes />
       </section>
       <Rewards />
-      <Judges /> */}
+      <Judges />
       <Footer />
     </main>
   );
