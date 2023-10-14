@@ -32,7 +32,7 @@ const EventCard = ({ event }) => {
             alt={event.description}
             height={1024}
             width={1024}
-            className={`w-[80%] h-[80%] object-contain rounded-full bg-[${event.iconBg}]`}
+            className={`w-[50%] h-[80%] object-contain rounded-full bg-[${event.iconBg}]`}
           />
         </div>
       }
