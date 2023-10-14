@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Timer from "./Timer";
 
 const RegistrationButton = () => {
-  const revealTime = new Date("2023-10-28T12:00:00").getTime();
+  const revealTime = new Date("2023-10-28T11:00:00").getTime();
   const [hackathonRevealed, setHackathonRevealed] = useState(false);
 
   const handleTimeout = () => {
@@ -20,7 +20,7 @@ const RegistrationButton = () => {
           {!hackathonRevealed ? (
             <Timer targetTime={revealTime} onTimeout={handleTimeout} />
           ) : (
-            <div>Hackathon Has Begun!</div>
+            <div className="text-[#fffba4]">00:00:00:00</div>
           )}
         </div>
       </div>
