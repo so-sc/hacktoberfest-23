@@ -8,7 +8,7 @@ const events = [
     points: [],
   },
   {
-    title: "Registration Close",
+    title: "Registration Deadline",
     description: "Registrations closes",
     icon: `/assets/icons/06@1x.png`,
     iconBg: "#0f0913",
@@ -16,19 +16,19 @@ const events = [
     points: [],
   },
   {
-    title: "Hackathon Begins",
-    description: "Commencement of Hackathon",
+    title: "Hackathon Kick-off",
+    description: "Commencement",
     icon: `/assets/icons/06@1x.png`,
     iconBg: "#0f0913",
-    date: "28 October - 09:00 a.m",
+    date: "28 October - 11:00 a.m",
     points: ["first point", "second point"],
   },
   {
-    title: "Hackathon Ends",
+    title: "Hackathon End",
     description: "Conclusion",
     icon: `/assets/icons/06@1x.png`,
     iconBg: "#0f0913",
-    date: "29 October - 05:00 p.m",
+    date: "29 October - 11:00 a.m",
     points: ["first point", "second point"],
   },
   {

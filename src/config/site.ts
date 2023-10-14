@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Hacktoberfest 2023",
   title: "HackNight 2023",
-  register: "/",
+  register: "https://forms.gle/PCCSHa9XQwM6n72RA",
   url: "https://hacknight.sosc.org.in",
   ogImage: "https://hacknight.sosc.org.in/og.jpg",
   description:
