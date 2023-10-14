@@ -20,7 +20,7 @@
   left: 18px;
   height: 100%;
   width: 4px;
-  background: var(--line-color);
+  background: white;
 }
 .vertical-timeline.vertical-timeline--one-column-right::before {
   right: 18px;
@@ -95,10 +95,10 @@
     margin-left: -30px;
   }
 }
-.vertical-timeline-element-icon {
+/* .vertical-timeline-element-icon {
   -webkit-transform: translateZ(0);
-  /* -webkit-backface-visibility: hidden; */
-}
+  -webkit-backface-visibility: hidden;
+} */
 /* .vertical-timeline--animate .vertical-timeline-element-icon.is-hidden {
   visibility: hidden;
 } */
