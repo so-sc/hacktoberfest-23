@@ -8,7 +8,7 @@ import Themes from "@/components/Themes";
 import gsap from "gsap";
 import Flowchart from "@/components/Flowchart/page";
 import styles from "@/components/About/About.module.css";
-import Button from "@/components/RegistrationButton";
+import DateComponent from "@/components/DateComponent";
 import Rewards from "@/components/Rewards";
 import Judges from "@/components/Judges";
 import Link from "@/components/Links";
@@ -27,45 +27,25 @@ export default function Home() {
     },
 
     {
-      src: "/assets/icons/06@1x.png",
+      src: "/assets/icons/13@1x.png",
       alt: "logo",
       className: `visible sm:invisible w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float2} absolute mt-[75rem]`,
     },
-    // {
-    //   src: "/assets/icons/14@1x.png",
-    //   alt: "logo",
-    //   className: `w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float3} absolute mt-[95rem] right-0`,
-    // },
-    // {
-    //   src: "/assets/icons/06@1x.png",
-    //   alt: "logo",
-    //   className: `w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float} absolute mt-[110rem]`,
-    // },
     {
-      src: "/assets/icons/14@1x.png",
+      src: "/assets/icons/12@1x.png",
       alt: "logo",
-      className: `w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float1} absolute mt-[125rem] right-0`,
+      className: `w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float1} absolute md:mt-[125rem] mt-[167rem] right-0`,
     },
-    // {
-    //   src: "/assets/icons/06@1x.png",
-    //   alt: "logo",
-    //   className: `w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float2} absolute mt-[150rem]`,
-    // },
-    // {
-    //   src: "/assets/icons/14@1x.png",
-    //   alt: "logo",
-    //   className: `w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float3} absolute mt-[165rem] right-0`,
-    // },
     {
-      src: "/assets/icons/06@1x.png",
+      src: "/assets/icons/03@1x.png",
       alt: "logo",
-      className: `w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float} absolute mt-[180rem]`,
+      className: `w-60 pr-40 md:ml-0 ml-5 md:p-14 ${styles.float} absolute md:mt-[180rem] mt-[200rem]`,
     },
-    // {
-    //   src: "/assets/icons/14@1x.png",
-    //   alt: "logo",
-    //   className: `w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float1} absolute mt-[210rem] md:mt-[200rem] right-0`,
-    // },
+    {
+      src: "/assets/icons/07@1x.png",
+      alt: "logo",
+      className: `w-60 pl-40 md:mr-0 mr-5 md:p-14 ${styles.float1} absolute mt-[245rem] md:mt-[213rem] right-0`,
+    },
   ];
 
   return (
@@ -83,7 +63,9 @@ export default function Home() {
       <section id="home">
         <Hero />
       </section>
-      <Button />
+      <section id="date">
+        <DateComponent />
+      </section>
       <TextSlide />
       <div id="about">
         <About />
@@ -94,8 +76,12 @@ export default function Home() {
       <section id="themes">
         <Themes />
       </section>
-      <Rewards />
-      <Judges />
+      <section id="prizes">
+        <Rewards />
+      </section>
+      <section id="judges">
+        <Judges />
+      </section>
       <Footer />
     </main>
   );

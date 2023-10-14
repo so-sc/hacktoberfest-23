@@ -37,8 +37,8 @@ const EventCard = ({ event }) => {
         </div>
       }
     >
-      <div className="gradient_border backdrop-blur-sm bg-[#d1f2f9] bg-opacity-5 p-10">
-        <h3 className="text-white text-[24px] font-jbExtrabold">
+      <div className="gradient_border hover:scale-[102%] cursor-default transition duration-200 backdrop-blur-sm bg-[#d1f2f9] bg-opacity-5 p-10">
+        <h3 className="text-[#fffba4] text-[24px] font-jbExtrabold">
           {event.title}
         </h3>
         <p
@@ -75,7 +75,7 @@ const Experience = () => {
         {``}
       </span>
 
-      <div className="text-3xl md:text-5xl py-10 font-jbExtrabold text-center">
+      <div className="text-4xl md:text-5xl pb-16 md:py-0 md:pt-10 font-jbExtrabold text-center">
         <TypingAnimation message="Hackathon Flow" />
       </div>
 

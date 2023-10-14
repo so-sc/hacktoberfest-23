@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/Flowchart.jsx",
-    "src/components/Themes.jsx"
+    "src/components/Themes.jsx",
+    "src/components/Navbar.jsx"
   ],
   "exclude": ["node_modules"]
 }
