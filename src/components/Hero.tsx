@@ -35,7 +35,7 @@ const Hero = () => {
         </svg>
       </Link>
       <div className="absolute top-0 h-screen flex items-center">
-        <div className="flex md:pt-5 flex-col items-center">
+        <div className="flex md:pt-5 md:mb-0 mb-20 flex-col items-center">
           <img
             src="/assets/logo/main-logo-new.png"
             width={500}
