@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <div className="w-full md:grid hidden backdrop-blur-md fixed top-0 z-50">
         <div className="flex md:px-20 lg:px-32 justify-between items-center">
-          <a href="/">
+          <a href="#home">
             <svg
               width="67.248604"
               height="18.71397"
@@ -78,7 +78,7 @@ const Navbar = () => {
             <ul id="menu">
               <a
                 className="text-2xl mt-10 mb-10 font-jbBold"
-                href="/"
+                href="#home"
                 to="_self"
                 onClick={closeMenu}
               >
