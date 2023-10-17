@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+
+import { siteConfig } from "@/config/site";
+
 const RegistrationButton = () => {
   return (
     <div>
@@ -8,7 +11,7 @@ const RegistrationButton = () => {
           <div className="py-3 bg-[#0f0913] rounded-2xl hover:drop-shadow-[0_0_0.2rem_#460a07] transition duration-300 underline-offset-8">
             <div className=" hover:drop-shadow-[0_0_0.2rem_#d2b863] transition duration-300">
               <Link
-                href=""
+                href={siteConfig.register}
                 className=" py-5 px-5 hover:drop-shadow-[0_0_0.2rem_#460a07] transition duration-300 underline-offset-8"
                 target="_blank"
               >

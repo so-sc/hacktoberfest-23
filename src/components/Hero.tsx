@@ -1,7 +1,10 @@
+"use client";
 import Button from "@/components/Button";
 import TypingAnimation from "@/components/TextAnimation/TextType";
 import styles from "@/components/About/About.module.css";
 import Link from "next/link";
+
+import { siteConfig } from "@/config/site";
 
 const Hero = () => {
   return (
@@ -15,7 +18,10 @@ const Hero = () => {
           className="object-center h-full w-full object-cover"
         ></img>
       </div>
-      <Link href="#date" className={`absolute ${styles.float1} bottom-0 py-10`}>
+      <Link
+        href="#date"
+        className={`absolute z-40 ${styles.float1} bottom-0 py-10`}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -29,7 +35,7 @@ const Hero = () => {
         </svg>
       </Link>
       <div className="absolute top-0 h-screen flex items-center">
-        <div className="flex pt-5 flex-col items-center">
+        <div className="flex md:pt-5 md:mb-0 mb-20 flex-col items-center">
           <img
             src="/assets/logo/main-logo-new.png"
             width={500}
@@ -46,13 +52,13 @@ const Hero = () => {
           ></img>
           <div className="flex flex-col pt-2 items-center font-jbExtrabold">
             <div className="text-3xl md:text-4xl">
-              <TypingAnimation message="HackNight 2023" />
+              <TypingAnimation message={siteConfig.title} />
             </div>
-            {/* <Button /> */}
+            <Button />
           </div>
         </div>
       </div>
-      <div className="-z-10">
+      {/* <div className="-z-10">
         <img
           src="/assets/background/tl.png"
           width={500}
@@ -81,7 +87,7 @@ const Hero = () => {
           alt="background"
           className="object-center pl-60 md:pl-40 lg:pl-32 absolute bottom-0 right-0"
         ></img>
-      </div>
+      </div> */}
     </div>
   );
 };
