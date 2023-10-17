@@ -11,7 +11,11 @@ const Events = () => {
           <TypingAnimation message="About" />
         </h1> */}
         <div className="flex justify-center items-center">
-          <img src="/assets/sponsors/mlh-logo.svg" className="w-40" alt="mlh" />
+          <img
+            src="/assets/sponsors/mlh-logo.svg"
+            className="md:w-40 w-32"
+            alt="mlh"
+          />
         </div>
       </div>
     </div>
