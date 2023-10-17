@@ -1,7 +1,7 @@
 const events = [
   {
     title: "Registration Begin",
-    description: "something here",
+    description: "",
     icon: `/assets/flowchart/registration.png`,
     iconBg: "#0f0913",
     date: "14th October",
@@ -9,7 +9,7 @@ const events = [
   },
   {
     title: "Registration Deadline",
-    description: "something here",
+    description: "",
     icon: `/assets/flowchart/deadline.png`,
     iconBg: "#0f0913",
     date: "28th October",
@@ -17,7 +17,7 @@ const events = [
   },
   {
     title: "Hackathon Kick-off",
-    description: "something here",
+    description: "",
     icon: `/assets/flowchart/start.png`,
     iconBg: "#0f0913",
     date: "28th October - 11:00 a.m",
@@ -25,7 +25,7 @@ const events = [
   },
   {
     title: "Hackathon End",
-    description: "something here",
+    description: "",
     icon: `/assets/flowchart/end.png`,
     iconBg: "#0f0913",
     date: "29 October - 11:00 a.m",
@@ -33,7 +33,7 @@ const events = [
   },
   {
     title: "Announcement of Results",
-    description: "something here",
+    description: "",
     icon: `/assets/flowchart/trophy.png`,
     iconBg: "#0f0913",
     date: "11th November",

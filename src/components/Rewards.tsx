@@ -57,7 +57,7 @@ export default function Rewards() {
                     Total Prize Pool of
                   </div>
                 </div>
-                <ul className="text-3xl lg:text-4xl w-fit mt-5">₹ 20,000</ul>
+                <ul className="text-3xl lg:text-4xl w-fit mt-5">₹ 10,000</ul>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function Rewards() {
             img="first.svg"
             message="Overall Winner"
             prizes={[
-              "Cash Prize of 10,000 INR.",
+              "Cash Prize of 5,000 INR.",
               "Bonus Mega Swags by SOSC",
               "Winner Certificate",
             ]}
@@ -74,7 +74,7 @@ export default function Rewards() {
             img="second.svg"
             message="Runner Up 1"
             prizes={[
-              "Cash Prize of 6,000 INR.",
+              "Cash Prize of 3,000 INR.",
               "Bonus Mega Swags by SOSC",
               "Winner Certificate",
             ]}
@@ -83,7 +83,7 @@ export default function Rewards() {
             img="third.svg"
             message="Runner Up 2"
             prizes={[
-              "Cash Prize of 4,000 INR.",
+              "Cash Prize of 2,000 INR.",
               "Bonus Mega Swags by SOSC",
               "Winner Certificate",
             ]}

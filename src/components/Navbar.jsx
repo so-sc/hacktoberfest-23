@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <div className="w-full md:grid hidden backdrop-blur-md fixed top-0 z-50">
         <div className="flex md:px-20 lg:px-32 justify-between items-center">
-          <Linkk href="/">
+          <a href="/">
             <svg
               width="67.248604"
               height="18.71397"
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </clipPath>
               </defs>
             </svg>
-          </Linkk>
+          </a>
           <ul className="flex space-x-8 flex-wrap items-center font-jbBold tracking-wider md:text-lg justify-between py-3 pb-5">
             <Link text="About" href="#about" to="_self"></Link>
             <Link text="Flow" href="#flowchart" to="_self"></Link>
@@ -76,54 +76,54 @@ const Navbar = () => {
             <span></span>
 
             <ul id="menu">
-              <Linkk
+              <a
                 className="text-2xl mt-10 mb-10 font-jbBold"
-                href="#home"
+                href="/"
                 to="_self"
                 onClick={closeMenu}
               >
                 Home
-              </Linkk>
-              <Linkk
+              </a>
+              <a
                 className="text-2xl mb-10 font-jbBold"
                 href="#about"
                 to="_self"
                 onClick={closeMenu}
               >
                 About
-              </Linkk>
-              <Linkk
+              </a>
+              <a
                 className="text-2xl mb-10 font-jbBold"
                 href="#flowchart"
                 to="_self"
                 onClick={closeMenu}
               >
                 Flow
-              </Linkk>
-              <Linkk
+              </a>
+              <a
                 className="text-2xl mb-10 font-jbBold"
                 href="#themes"
                 to="_self"
                 onClick={closeMenu}
               >
                 Themes
-              </Linkk>
-              <Linkk
+              </a>
+              <a
                 className="text-2xl mb-10 font-jbBold"
                 href="#prizes"
                 to="_self"
                 onClick={closeMenu}
               >
                 Prizes
-              </Linkk>
-              <Linkk
+              </a>
+              <a
                 className="text-2xl mb-10 font-jbBold"
                 href="#judges"
                 to="_self"
                 onClick={closeMenu}
               >
                 Judges
-              </Linkk>
+              </a>
             </ul>
           </div>
         </nav>

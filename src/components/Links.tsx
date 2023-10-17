@@ -11,13 +11,13 @@ const Links: FC<LinkProps> = ({ text, to, href }) => {
   return (
     <div className="pt-3 ">
       <div className="hover:drop-shadow-[0_0_0.2rem_#d2b863] transition duration-300">
-        <Link
+        <a
           className="hover:underline hover:drop-shadow-[0_0_0.2rem_#460a07] transition duration-300 underline-offset-8 scroll-smooth"
           target={to}
           href={href}
         >
           {text}
-        </Link>
+        </a>
       </div>
     </div>
   );
