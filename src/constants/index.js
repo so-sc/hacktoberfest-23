@@ -1,11 +1,13 @@
 const events = [
   {
-    title: "Registration Begins",
+    title: "Registrations open for Hacknight!",
     description: "",
     icon: `/assets/flowchart/registration.png`,
     iconBg: "#0f0913",
     date: "17th October",
-    points: [],
+    points: [
+      "Secure your spot at the most exhilarating tech event of Hacktober Fest to unleash your coding potential and work on some amazing projects!",
+    ],
   },
   {
     title: "Registration Deadline",
@@ -13,7 +15,7 @@ const events = [
     icon: `/assets/flowchart/deadline.png`,
     iconBg: "#0f0913",
     date: "28th October",
-    points: [],
+    points: ["Form your teams and gear up for D-day!"],
   },
   {
     title: "Hackathon Kick-off",
@@ -21,7 +23,10 @@ const events = [
     icon: `/assets/flowchart/start.png`,
     iconBg: "#0f0913",
     date: "28th October - 11:00 a.m",
-    points: [],
+    points: [
+      "Choose your fighter: pick a theme/track and start building on your concept!",
+      "You'll have a 24-hour window to transform your concept into a prototype.",
+    ],
   },
   {
     title: "Hackathon Ends",
@@ -29,7 +34,10 @@ const events = [
     icon: `/assets/flowchart/end.png`,
     iconBg: "#0f0913",
     date: "29 October - 11:00 a.m",
-    points: [],
+    points: [
+      "Time's up!",
+      "Bid farewell to your coding marathons as the hackathon comes to a close. It's time to prepare for project presentations and the final showdown!",
+    ],
   },
   {
     title: "Announcement of Results",
@@ -37,7 +45,10 @@ const events = [
     icon: `/assets/flowchart/trophy.png`,
     iconBg: "#0f0913",
     date: "11th November",
-    points: [],
+    points: [
+      "The moment of truth!",
+      "Get ready for the much-anticipated announcement of hackathon winners. Your hard work and innovation will be recognized, and prizes will be awarded.",
+    ],
   },
 ];
 
