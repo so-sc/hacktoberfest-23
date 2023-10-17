@@ -62,7 +62,7 @@ const Navbar = () => {
             <Link text="Flow" href="#flowchart" to="_self"></Link>
             <Link text="Themes" href="#themes" to="_self"></Link>
             <Link text="Prizes" href="#prizes" to="_self"></Link>
-            <Link text="Judges" href="#judges" to="_self"></Link>
+            {/* <Link text="Judges" href="#judges" to="_self"></Link> */}
           </ul>
         </div>
       </div>
@@ -116,14 +116,14 @@ const Navbar = () => {
               >
                 Prizes
               </a>
-              <a
+              {/* <a
                 className="text-2xl mb-10 font-jbBold"
                 href="#judges"
                 to="_self"
                 onClick={closeMenu}
               >
                 Judges
-              </a>
+              </a> */}
             </ul>
           </div>
         </nav>

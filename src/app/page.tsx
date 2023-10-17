@@ -13,6 +13,8 @@ import Rewards from "@/components/Rewards";
 import Judges from "@/components/Judges";
 import Link from "@/components/Links";
 
+import Sponsors from "@/components/Sponsors";
+
 export default function Home() {
   const images = [
     {
@@ -79,9 +81,10 @@ export default function Home() {
       <section id="prizes">
         <Rewards />
       </section>
-      <section id="judges">
+      {/* <section id="judges">
         <Judges />
-      </section>
+      </section> */}
+      <Sponsors />
       <Footer />
     </main>
   );

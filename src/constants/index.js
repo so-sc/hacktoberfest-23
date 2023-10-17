@@ -1,10 +1,10 @@
 const events = [
   {
-    title: "Registration Begin",
+    title: "Registration Begins",
     description: "",
     icon: `/assets/flowchart/registration.png`,
     iconBg: "#0f0913",
-    date: "14th October",
+    date: "17th October",
     points: [],
   },
   {
@@ -24,7 +24,7 @@ const events = [
     points: [],
   },
   {
-    title: "Hackathon End",
+    title: "Hackathon Ends",
     description: "",
     icon: `/assets/flowchart/end.png`,
     iconBg: "#0f0913",
