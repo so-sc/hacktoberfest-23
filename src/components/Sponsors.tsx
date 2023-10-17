@@ -10,7 +10,12 @@ const Events = () => {
         {/* <h1 className="text-center my-10 py-5 md:py-10 text-4xl md:text-5xl font-jbExtrabold">
           <TypingAnimation message="About" />
         </h1> */}
-        <div className="flex justify-center items-center">
+        <div className="flex space-x-10 sm:space-x-20 md:space-x-32 justify-center items-center">
+          <img
+            src="/assets/sponsors/scem-logo.png"
+            className="md:w-32 w-24"
+            alt="scem"
+          />
           <img
             src="/assets/sponsors/mlh-logo.svg"
             className="md:w-40 w-32"
