@@ -54,40 +54,10 @@ const Hero = () => {
             <div className="text-3xl md:text-4xl">
               <TypingAnimation message={siteConfig.title} />
             </div>
-            <Button />
+            {/* <Button /> */}
           </div>
         </div>
       </div>
-      {/* <div className="-z-10">
-        <img
-          src="/assets/background/tl.png"
-          width={500}
-          height={500}
-          alt="background"
-          className="object-center pr-60 md:pr-40 lg:pr-32 absolute top-0 left-0"
-        ></img>
-        <img
-          src="/assets/background/tr.png"
-          width={500}
-          height={500}
-          alt="background"
-          className="object-center pl-60 md:pl-40 lg:pl-32 absolute top-0 right-0"
-        ></img>
-        <img
-          src="/assets/background/bb.png"
-          width={500}
-          height={500}
-          alt="background"
-          className="object-center pr-60 md:pr-40 lg:pr-32 absolute bottom-0 left-0"
-        ></img>
-        <img
-          src="/assets/background/bbb.png"
-          width={500}
-          height={500}
-          alt="background"
-          className="object-center pl-60 md:pl-40 lg:pl-32 absolute bottom-0 right-0"
-        ></img>
-      </div> */}
     </div>
   );
 };
