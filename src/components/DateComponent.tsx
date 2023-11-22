@@ -20,7 +20,7 @@ const RegistrationButton = () => {
           {!hackathonRevealed ? (
             <Timer targetTime={revealTime} onTimeout={handleTimeout} />
           ) : (
-            <div className="text-[#fffba4]">00:00:00:00</div>
+            <div className="text-[#fffba4]">Hackathon Ended!</div>
           )}
         </div>
       </div>
